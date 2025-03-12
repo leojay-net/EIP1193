@@ -1,12 +1,35 @@
-# React + Vite
+# Wallet Management Mini-Dapp - EIP 1193
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application that allows users to manage their Ethereum wallets (Using the EIP 1193 Specification). The application supports connecting to different Ethereum chains, switching between them, and sending transactions.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Connect to Ethereum wallet using MetaMask
+- Display connected account and chain information
+- Switch between supported Ethereum chains
+- Send transactions to specified addresses
 
-## Expanding the ESLint configuration
+## Supported Chains
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Ethereum Mainnet
+- Sepolia Testnet
+- Binance Smart Chain
+- Binance Smart Chain Testnet
+- Polygon Mainnet
+- Core Blockchain Testnet2
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+- MetaMask extension installed in your browser
+
+### Installation
+
+1. Clone the repository:
+
+```sh
+git clone https://github.com/your-username/wallet-management-mini-dapp.git
+cd wallet-management-mini-dapp
